@@ -1,0 +1,121 @@
+div#header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	background: #272727;
+}
+body {
+	padding-top: 30px;
+	background: #3F3F3F;
+	color: white;
+}
+div#header > a, div#header > button{
+	float: right;
+	padding: 11px 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background: inherit;
+	border-bottom: none;
+	border: none;
+	font-size: 16px;
+	transition: background 0.1s, color 0.1s, border-bottom 0.1s;
+}
+div#header > a:hover, div#header > button:hover {
+	background: #7775ED;
+	color: white;
+	border-bottom: 3px solid #7775ED;
+}
+div#header > div.dropdown {
+	
+}
+
+h1 {
+	padding-right: 3%;
+	width: 50%;
+	padding-left: 1%;
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+	font-size: 44px;
+}
+p {
+	margin-left: 5%;
+	margin-right: 0%;
+	width: 42%;
+	font-size: 22px;
+}
+
+.textRight > p, p.textRight {
+	margin-left: 0%;
+	margin-right: 5%;
+	float: right;
+	width: 42%;
+	text-align: right;
+	font-size: 22px;
+}
+
+.textRight > h1, h1.textRight {
+	padding-left: 1%;
+	text-align: right;
+	width: 50%;
+	float: right;
+	padding-right: 3%;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+	font-size: 44px;
+}
+
+div.siteInfoWrap {
+	background-color: #3f3f3f;
+	width: 100%;
+	position: absolute;
+	margin: 0px;
+	top: 10px;
+	left: -1px;
+	z-index: -1;
+	
+}
+div.siteInfoCard {
+	width: 98%;
+	padding-left: 1%;
+	padding-right: 1%;
+	height: 500px;
+	float: left;
+	-webkit-mask-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
+	-webkit-mask-composite: source-out;
+}
+div.dropdown {
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	display: none;
+	width: 183px;
+	background: inherit;
+}
+div.dropdown > a {
+	width: inherit;
+	height: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	padding: 10px 0px;
+	text-align: center;
+	transition: background 0.1s, color 0.1s;
+}
+div.dropdown > a:hover {
+	background: #7775ED;
+}
+p.slogan {
+	position: fixed;
+	margin: 0px;
+	left: 0px;
+	width: 144px;
+	padding: 2px;
+	padding-left: 8px;
+	bottom: 0px;
+	font-size: 14px;
+	background: #3F3F3F;
+}
