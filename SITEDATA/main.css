@@ -97,6 +97,11 @@ div.dropdown {
 	width: 183px;
 	background: inherit;
 }
+div#pageTop {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
 div.dropdown > a {
 	width: inherit;
 	height: 20px;
